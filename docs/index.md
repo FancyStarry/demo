@@ -4,22 +4,22 @@ layout: home
 
 hero:
   name: "Lynna Demo"
-  text: "Powered by VitePress"
-  tagline: My great project tagline
+  text: "由VitePress驱动"
+  tagline: 看起来很酷的一条标语
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: Markdown 示例
       link: /markdown-examples
     - theme: alt
-      text: API Examples
+      text: API 示例
       link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 功能 A
+    details: 占位文本
+  - title: 功能 B
+    details: 占位文本
+  - title: 功能 C
+    details: 占位文本
 ---
 

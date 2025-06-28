@@ -15,8 +15,8 @@ export default defineConfig({
       pattern: 'https://github.com/FancyStarry/demo/tree/main/docs:path'
     },
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '首页', link: '/' },
+      { text: '示例', link: '/markdown-examples' }
     ],
     sidebar: [
       {
@@ -28,8 +28,21 @@ export default defineConfig({
       }
     ],
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+      { icon: 'github', link: 'https://github.com/FancyStarry/demo/' }
+    ],
+  },
+  locales: {
+    root: {
+      label: 'Chinese',
+      lang: 'zh'
+    },
+    en: {
+      label: 'English',
+      lang: 'en', // 可选，将作为 `lang` 属性添加到 `html` 标签中
+      link: '/en/' // 默认 /fr/ -- 显示在导航栏翻译菜单上，可以是外部的
+
+      // 其余 locale 特定属性...
+    }
   },
   // 最后编辑时间
   lastUpdated: true
