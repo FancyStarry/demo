@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Lynna Demo"
-  text: "is Demo"
+  text: "Powered by VitePress"
   tagline: My great project tagline
   actions:
     - theme: brand
